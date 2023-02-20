@@ -252,8 +252,8 @@
         bottom: calc(4px*.71);
     }
     .NavCount {
-        width:  calc(21px*.71);
-        height: calc(21px*.71);
+        width:  calc(21px*.81);
+        height: calc(21px*.81);
         left: calc(10px*.71);
         top: calc(-5px*.71);
         border: calc(2px*.71) solid #FFFF;
@@ -276,11 +276,11 @@
     }
     
     .NavClsfds span {
-        width: calc(102px*.71);
+        width: calc(60px);
         height: calc(27px*.71);
         font-weight: calc(700*.71);
         font-size: calc(18px*.71);
-        line-height: calc(27px*.71);  
+        line-height: calc(27px*.71);
 
     }
     .NavCart,.NavIcn{

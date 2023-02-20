@@ -48,7 +48,12 @@
     margin-left: 8px;
 
 }
-
+.headerTop .headerTopMail{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    /* background-color: red; */
+}
 .headerTopMail span {
     height: 24px;
     width: 156px;
@@ -56,7 +61,6 @@
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 0em;
-
     color: white;
 }
 
@@ -90,7 +94,8 @@
     color: #FFFFFF;
 
 }
-.headerTopRight .headerTopDol{
+
+.headerTopRight .headerTopDol {
     gap: 0em;
 }
 
@@ -105,6 +110,77 @@
     color: #FFFFFF;
 
 }
-.headerTopRight .headerTopLang{
+
+.headerTopRight .headerTopLang {
     gap: 1em;
+}
+
+@media(max-width:1366px) {
+    .headerTopMain {
+        height: calc(53px*.71);
+    }
+    .headerTopLeft,
+    .headerTopRight {
+        gap:  calc(2em*.71);
+    }
+
+    .headerTopLeft div,
+    .headerTopRight div {
+        height:  calc(25px*.71);
+        gap:  calc(.5em*.71);
+    }
+
+    .headerTopPhone span {
+        height:  calc(24px*.71);
+        width:  calc(105px*.71);
+        font-size:  calc(16px*.71);
+        /* font-weight:  calc(600*.91); */
+        line-height: calc(24px*.71);
+        margin-left: calc(8px*.71);
+
+    }
+
+    .headerTopMail span {
+        height:  calc(24px*.71);
+        width:  calc(156px*.71);
+        font-size:  calc(16px*.71);
+        /* font-weight: calc(600*.91); */
+    }
+
+    .headerTopVertical {
+        width: calc(2px*.71);
+        height: calc(31px*.71);
+        border-radius: calc(22px*.71);
+    }
+
+    .headerTopLoc span {
+        width: calc(79px*.71);
+        height: calc(24px*.71);
+        /* font-weight: calc(600*.91); */
+        font-size: calc(16px*.71);
+        line-height: calc(24px*.71);
+
+    }
+
+    .headerTopDol span {
+        width: 70px;
+        height: calc(24px*.71);
+        /* font-weight: calc(600*.91); */
+        font-size: calc(16px*.71);
+        line-height: calc(24px*.71);
+
+    }
+    .headerTopLang span {
+        width: calc(21px*.71);
+        height: calc(24px*.71);
+        /* font-weight:calc(600*.91); */
+        font-size: calc(16px*.71);
+        line-height: calc(24px*.71);
+
+    }
+
+    .headerTopRight .headerTopLang {
+        gap: calc(1em*.71);
+    }
+
 }
