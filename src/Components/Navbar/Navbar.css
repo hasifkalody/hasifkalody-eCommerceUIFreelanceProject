@@ -1,0 +1,291 @@
+* {
+    box-sizing: border-box;
+}
+
+.NavbarMain {
+    width: 100vw;
+    height: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navbar {
+    /* width: 88%; */
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.NavMiddle{
+    width: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NavLgElmnt1 {
+    Width: 19.45px;
+    Height: 42.34px;
+    background: #3187ED;
+}
+
+.NavLgElmnt2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: linear-gradient(90deg, white 50%, #3187ED 50%);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+}
+
+.NavLgElmntMain {
+    position: relative;
+}
+
+.NavbarLg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 190px;
+}
+
+.LogoTxtCntr {
+    display: flex;
+    align-items: flex-start;
+}
+
+.NvDrpDwn {
+    width: 246px;
+    height: 70px;
+    background: #F8F8F8;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 3em;
+}
+
+
+.NvDrpDwn span {
+    width: 110px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4D4D;
+   
+}
+
+.NvSearch {
+    width: 554px;
+    height: 70px;
+    background: #F8F8F8;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 1em;
+}
+.NavHeart{
+    margin-left: 6em;
+}
+.NvSearch input {
+    background: #F8F8F8;
+    border: none;
+
+}
+
+.CartMain {
+    position: relative;
+
+}
+
+.CartElmnts {
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.NavCount {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 10px;
+    top: -5px;
+    border-radius: 50%;
+    background: #3187ED;
+    border: 2px solid #FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavCount span {
+    position: absolute;
+    left: 4px;
+    width: 10px;
+    height: 19px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.NavClsfds {
+    width: 164px;
+    height: 70px;
+    background: #00C6D7;
+    box-shadow: 0px 11px 27px rgba(0, 198, 215, 0.35);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute;
+    right: 0; */
+}
+.Navleft{
+    width: 70vw;background-color: red;
+}
+.NavClsfds span {
+    width: 86px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF; 
+}
+.NavCart,.NavIcn{
+    margin-left: 2em;
+}
+
+@media(max-width:1366px){
+    /* .NavLgtxt1{
+        Width:calc(5*.71) ;
+        Height:calc( 5*.71);
+    }
+    .NavLgtxt2{
+        Width:calc(17*.71) ;
+        Height:calc( 16*.71);
+    }
+    .NavLgtxt3{
+        Width:calc(17*.71) ;
+        Height:calc( 22*.71);
+    }
+    .NavLgtxt4{
+        Width:calc(17*.71) ;
+        Height:calc( 16*.71);
+    }
+    .NavLgtxt5{
+        Width:calc(6*.71) ;
+        Height:calc( 22*.71);
+    }
+    .NavLgtxt6{
+        Width:calc(17*.71) ;
+        Height:calc( 21*.71);
+    }
+    .NavLgtxt7{
+        Width:calc(13*.71) ;
+        Height:calc( 16*.71);
+    }
+    .NavLgtxt8{
+        Width:calc(15*.71) ;
+        Height:calc( 16*.71);
+    }
+    .NavLgtxt9{
+        Width:calc(23*.71) ;
+        Height:calc( 16*.71);
+    }
+    .NavLgtxt10{
+        Width:calc(8*.71) ;
+        Height:calc( 7*.71);
+    } */
+    .NavLgElmnt1 {
+        Width:calc(19.45px*.71) ;
+        Height:calc( 42.34px*.71);
+    }
+    .NavbarMain {
+        height: calc(149px*.71);  
+    }
+    .NavLgElmnt2 {
+        width: calc(30px*.71);
+        height: calc(30px*.71);
+        left: calc(5px*.71);
+    }
+    .NavbarLg {
+        width: calc(190px*.91);
+    }
+    .NvDrpDwn {
+        width: calc(246px*.71);
+        height: calc(70px*.71);
+        border-radius: calc(12px*.71);
+        margin-left: calc(3em*.71);
+    }
+    .NvDrpDwn span {
+        width: calc(110px*.71);
+        height: calc(30px*.71);
+        font-weight: calc(500*.71);
+        font-size: calc(20px*.71);
+        line-height: calc(30px*.71);
+    }
+    .NvSearch {
+        width: calc(554px*.71);
+        height: calc(70px*.71);  
+        border-radius: calc(12px*.71);
+        padding: calc(20px*.71);
+        margin-left: calc(1em*.71);
+    }
+    .NavHeart{
+        margin-left: calc(6em*.71);
+    }
+    .CartElmnts {
+        bottom: calc(4px*.71);
+    }
+    .NavCount {
+        width:  calc(21px*.71);
+        height: calc(21px*.71);
+        left: calc(10px*.71);
+        top: calc(-5px*.71);
+        border: calc(2px*.71) solid #FFFF;
+    }
+    
+    .NavCount span {
+        left: calc(4px*.71);
+        width: calc(10px*.71);
+        height: calc(19px*.71);
+        font-weight: calc(800*.71);
+        font-size: calc(16px*.71);
+        line-height: calc(19px*.71);
+    }
+    
+    .NavClsfds {
+        width: calc(164px*.71);
+        height: calc(70px*.71);
+        box-shadow: 0px calc(11px*.71) calc(27px*.71) rgba(0, 198, 215, 0.35);
+        border-radius: calc(12px*.71);
+    }
+    
+    .NavClsfds span {
+        width: calc(102px*.71);
+        height: calc(27px*.71);
+        font-weight: calc(700*.71);
+        font-size: calc(18px*.71);
+        line-height: calc(27px*.71);  
+
+    }
+    .NavCart,.NavIcn{
+        margin-left: calc(2em*.71);
+    }
+    
+    
+}
