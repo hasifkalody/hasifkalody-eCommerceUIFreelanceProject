@@ -8,19 +8,21 @@ import Recommendations from '../Components/Recommendations/Recommendations'
 import Section1 from '../Components/Section1/Section1'
 import Section2 from '../Components/Section2/Section2'
 import HotSale from '../Components/HotSale/HotSale'
+import Section3 from '../Components/Section3/Section3'
 
 function Home() {
   return (
     <div>
       <HeaderTop/>
-      <Navbar/>
-      {/* <NavOptions/>
+      {/* <Navbar/>
+      <NavOptions/>
       <Carousel/> 
       <Section1/>
       <Section2/>
       <Recommendations/>
-      <FlashSale/> */}
-      <HotSale/>
+      <FlashSale/>
+      <HotSale/> */}
+      <Section3/>
     </div>
   )
 }

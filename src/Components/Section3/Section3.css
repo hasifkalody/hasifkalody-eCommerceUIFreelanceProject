@@ -1,0 +1,140 @@
+.sc3Main {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 95vh;
+    padding-top:6em ;
+    padding-bottom: 6em;
+}
+
+.sc3CardsContainer {
+    width: 88%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.4%;
+}
+
+.sc3CImg1 {
+    background: url('../../Assets/ImagesForScn3/Rectangle\ 1.png');
+}
+
+.sc3CImg2 {
+    background: url('../../Assets/ImagesForScn3/Rectangle\ 2.png');
+}
+
+.sc3CImg3 {
+    background: url('../../Assets/ImagesForScn3/Rectangle\ 3.png');
+}
+
+.sc3CImg4 {
+    background: url('../../Assets/ImagesForScn3/Rectangle\ 4.png');
+}
+
+.sc3Card {
+    border-radius: 30px;
+    width: 48.8%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sc3Card1 {
+    width: 512px;
+    height: 120px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 44px;
+    line-height: 110.8%;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.sc3Card12 {
+    font-weight: 700;
+}
+
+.sc3Card21 {
+    width: 393px;
+    height: 41px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 2.2;
+    text-transform: capitalize;
+    color: #F8F8F8;
+    display: inline-block;
+    width: 80%;
+    
+}
+
+.sc3Card22 {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid #F8F8F8;
+    position: relative;
+   
+}
+
+.sc3Card221 {
+    width: 12.12px;
+    height: 12.12px;
+    border-top: 4px solid #F8F8F8;
+    border-right: 4px solid #F8F8F8;
+    transform: rotate(45deg) translateX(-80%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}
+.sc3Card2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+@media(max-width:1366px) {
+    .sc3Main {
+        padding-top:calc(6em*.71);
+        padding-bottom:calc(6em*.71);
+    }
+    
+    /* .sc3CardsContainer {
+        gap: 2.4%;
+    }
+   */
+    .sc3Card {
+        border-radius: calc(30px*.71);
+        padding: calc(3em*.71);
+    }
+    
+    .sc3Card1 {
+        width: calc(512px*.71);
+        height: calc(120px*.71);
+        font-size: calc(44px*.71);
+    }
+    
+    .sc3Card21 {
+        width: calc(393px*.71);
+        height: calc(41px*.71);
+        font-size: calc(27px*.71);
+        line-height: calc(2.2px*.71);
+        line-height: 2.2;
+    }
+    
+    .sc3Card22 {
+        width: calc(48px*.71);
+        height: calc(48px*.71);
+    }
+    
+    .sc3Card221 {
+        width: calc(12.12px*.71);
+        height: calc(12.12px*.71);
+        border-top: calc(4px*.71) solid #F8F8F8;
+        border-right:calc(4px*.71) solid #F8F8F8;
+    }
+}
