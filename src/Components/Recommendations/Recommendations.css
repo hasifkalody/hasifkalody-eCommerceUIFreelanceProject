@@ -1,0 +1,48 @@
+.RcMain {
+    background: white;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.Rcmndtns {
+    width: 88%;
+}
+
+.RcTp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.RcTpEl1 span {
+    width: 236px;
+    height: 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
+
+}
+
+.RcTpEl2 span {
+    width: 238px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    color: #3187ED;
+
+}
+.RcCarousel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    overflow: hidden;
+}
