@@ -17,7 +17,7 @@ function Recommendations() {
         </div>
         <div className='RcCarousel'>
           <div className='sctn2Lft2spnL'>
-            <div style={{ borderTop: "solid 4px #4D4D4D ", borderRight: "solid 4px #4D4D4D " }}></div>
+            <div style={{ borderTop: "solid calc(4px*.71)  #4D4D4D ", borderRight: "solid calc(4px*.71)  #4D4D4D " }}></div>
           </div>
 
           <RcmndtnsCard src={img1} desc='iPhone 12 With Facetime 128GB Blue 5G Specs' />
@@ -27,7 +27,7 @@ function Recommendations() {
           <RcmndtnsCard src={img5} desc='Convers Gray' />
 
           <div className='sctn2Lft2spnR'>
-            <div style={{ borderTop: "solid 4px #4D4D4D ", borderRight: "solid 4px #4D4D4D " }}></div>
+            <div style={{ borderTop: "solid calc(4px*.71)  #4D4D4D ", borderRight: "solid calc(4px*.71)  #4D4D4D " }}></div>
           </div>
         </div>
       </div>

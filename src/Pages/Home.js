@@ -13,11 +13,11 @@ function Home() {
     <div>
       <HeaderTop/>
       <Navbar/>
-      {/* <NavOptions/>
+      <NavOptions/>
       <Carousel/> 
       <Section1/>
       <Section2/>
-      <Recommendations/> */}
+      <Recommendations/>
       <FlashSale/>
     </div>
   )

@@ -7,6 +7,8 @@ body {
     display: flex;
     justify-content: center;
     overflow: hidden;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .sctn2Lft {
@@ -138,6 +140,8 @@ body {
     .sctn2Lft2spnR div {
         width: calc(11.19px*.71) ;
         height: calc(11.19px*.71) ;
+        border-top: calc(4px*.71) solid #000000;
+        border-right: calc(4px*.71)  solid #000000;
     }
     .sctn2Lft3 {
         width: calc(191px*.71) ;
@@ -157,5 +161,9 @@ body {
     .sctn2Lft3 div {
         width: calc(11.9px*.71) ;
         height: calc(11.9px*.71) ;
+    }
+    .sctn2Main {
+        padding-top: calc(2em*.71) ;
+        padding-bottom: calc(2em*.71) ;
     }
 }

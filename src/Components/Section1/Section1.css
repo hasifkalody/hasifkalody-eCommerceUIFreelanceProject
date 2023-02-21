@@ -11,6 +11,8 @@
 
 .sctn1 {
     width: 88%;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .sctn1Tp {
@@ -75,5 +77,9 @@
         gap: calc(2.5em*.71) ;
         padding:calc(2em*.71) ;
         padding-top: calc(2.5en*.71) ;
+    }
+    .sctn1 {
+        padding-top: calc(2em*.71) ;
+        padding-bottom: calc(2em*.71) ;
     }
 }
