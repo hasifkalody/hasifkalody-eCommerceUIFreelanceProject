@@ -1,0 +1,93 @@
+.sctn1Card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0em;
+}
+
+.sctn1Card img {
+    width: 117px;
+    height: 139px;
+    border-radius: 20px;
+}
+
+.sctn1CrdDetails1 {
+    width: 136px;
+    height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+.sctn1CrdDetails2 {
+    width: 55px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3187ED;
+    margin-top: 1em;
+}
+
+.sctn1CrdDetails3 {
+    display: flex;
+    align-items: center;
+    gap: .2em;
+    margin-top: .2em;
+}
+
+.sctn1CrdDetails3 span {
+    width: 29px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8D8D8D;
+
+}
+@media(max-width:1366px){
+    .sctn1Card img {
+        width: calc(117px*.71) ;
+        height: calc(139px*.71) ;
+        border-radius: calc(20px*.71) ;
+    }
+    
+    .sctn1CrdDetails1 {
+        width: calc(136px*.71) ;
+        height: calc(48px*.71) ;
+        /* font-weight: 400; */
+        font-size: calc(16px*.71) ;
+        line-height: calc24(px*.71) ;
+    
+    }
+    
+    .sctn1CrdDetails2 {
+        width: calc(55px*.71) ;
+        height: calc(30px*.71) ;
+        /* font-weight: 600; */
+        font-size: calc(20px*.71) ;
+        line-height: calc(30px*.71) ;
+        margin-top: calc(1em*.71) ;
+    }
+    
+    .sctn1CrdDetails3 {
+        gap: calc(.2em*.71) ;
+        margin-top: calc(.2em*.71) ;
+    }
+    
+    .sctn1CrdDetails3 span {
+        width: calc29(px*.71) ;
+        height: calc(24px*.71) ;
+        /* font-weight: 400; */
+        font-size: calc(16px*.71) ;
+        line-height: calc(24px*.71) ;    
+    }
+}
