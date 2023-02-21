@@ -1,15 +1,17 @@
 import React from 'react'
-import './RcmndtnsCard.css'
 import Star from '../../Components/Assets/Icons/Star'
-function RcmndtnsCard({ src, desc }) {
+import './HotSaleCard.css'
+function HotSaleCard({ src, desc }) {
     return (
-        <div className='RcmndtnsCard'>
-            <img src={src} alt="" />
+        <div className='RcmndtnsCard htCard'>
+            <div className='htCardimg'>
+                <img src={src} alt="" />
+            </div>
             <div className='Rc2'>
                 <div className='Rcdiv'><span>{desc}</span></div>
-                <div className='RcCardEl1'><span>$1,245.33</span></div>
+                <div className='RcCardEl1'><span>$876.98</span></div>
                 <div className='RcEl2'>
-                    <div className='RcEl21'><span>$1,300</span></div>
+                    <div className='RcEl21'><span>$890.99</span></div>
                     <div className='RcEl22'>
                         <span>4.5</span>
                         <Star />
@@ -20,4 +22,4 @@ function RcmndtnsCard({ src, desc }) {
     )
 }
 
-export default RcmndtnsCard
+export default HotSaleCard

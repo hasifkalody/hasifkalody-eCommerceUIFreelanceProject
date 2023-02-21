@@ -1,0 +1,26 @@
+.htSaleMn {
+    display: flex;
+    align-items: center;
+}
+
+.htSale {
+    width: 88%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.htCard {
+    width: 273px;
+    height: 504px;
+}
+@media(max-width:1366px) {
+    .htSale {
+        margin-top: calc(2em*.71);
+        margin-bottom: calc(2em*.71);
+    }
+    
+    .htCard {
+        width: calc(273px*.71);
+        height: calc(504px*.71);
+    }
+}

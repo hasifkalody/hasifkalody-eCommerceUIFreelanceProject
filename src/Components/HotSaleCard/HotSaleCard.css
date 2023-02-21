@@ -1,0 +1,8 @@
+.htCardimg{
+    padding: 1.5em;
+}
+@media(max-width:1366px) {
+    .htCardimg{
+        padding: calc(1.5em*.71);
+    }
+}
