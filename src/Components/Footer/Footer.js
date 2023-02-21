@@ -10,6 +10,8 @@ import img2 from '../../Assets/ImagesFotFooterSociel/im2.png'
 import img3 from '../../Assets/ImagesFotFooterSociel/im3.png'
 import img4 from '../../Assets/ImagesFotFooterSociel/im4.png'
 import img5 from '../../Assets/ImagesFotFooterSociel/im5.png'
+import FooterIcn4 from '../Assets/Icons/FooterIcn4'
+import GooglePlayIcn from '../Assets/Icons/GooglePlayIcn'
 function Footer() {
     return (
         <div className='FooterMn'>
@@ -112,9 +114,29 @@ function Footer() {
                             </button>
 
                         </div>
-                        <div>
-                            
+                        <div className='FooterEl231124Mn'>
+                            <div className='FooterEl231124'>
+                                <div className='FooterEl2311241'>
+                                    <FooterIcn4 />
+
+                                </div>
+                                <div className='FooterEl2311242'>
+                                    <div className='FooterEl23112421'><span>Download on the</span></div>
+                                    <div className='FooterEl23112422'><span>App Store</span></div>
+                                </div>
+                            </div>
+                            <div className='FooterEl231124'>
+                                <div className='FooterEl2311241'>
+                                    <GooglePlayIcn />
+
+                                </div>
+                                <div className='FooterEl2311242'>
+                                    <div className='FooterEl23112421'><span>GET IT ON</span></div>
+                                    <div className='FooterEl23112422'><span>Google Play</span></div>
+                                </div>
+                            </div>
                         </div>
+
 
                     </div>
                 </div>
