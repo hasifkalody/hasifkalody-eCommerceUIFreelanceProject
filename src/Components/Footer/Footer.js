@@ -3,6 +3,7 @@ import './Footer.css'
 import FoooterIcon1 from '../Assets/Icons/FoooterIcon1'
 import FooterIcon2 from '../Assets/Icons/FooterIcon2'
 import LogoText from '../Assets/Icons/LogoText'
+import FooterIcon3 from '../Assets/Icons/FooterIcon3'
 // images
 import img1 from '../../Assets/ImagesFotFooterSociel/im1.png'
 import img2 from '../../Assets/ImagesFotFooterSociel/im2.png'
@@ -75,11 +76,47 @@ function Footer() {
                         <div className='FooterEl23121Chld'><span>Contact us</span></div>
                         <div className='FooterEl23121Chld'><span>Login</span></div>
                         <div className='FooterEl23121Chld'><span>Sign Up</span></div>
-                        
+
                     </div>
-                    <div className='FooterEl2313'></div>
-                    <div className='FooterEl2314'></div>
-                    <div className='FooterEl2315'></div>
+                    <div className='FooterEl2312'>
+                        <div className='FooterEl23121'><span>CUSTOMER AREA</span></div>
+                        <div className='FooterEl23121Chld'><span>My Account</span></div>
+                        <div className='FooterEl23121Chld'><span>Orders</span></div>
+                        <div className='FooterEl23121Chld'><span>Tracking List</span></div>
+                        <div className='FooterEl23121Chld'><span>Terms</span></div>
+                        <div className='FooterEl23121Chld'><span>Privacy Policy</span></div>
+                        <div className='FooterEl23121Chld'><span>Return policy</span></div>
+                        <div className='FooterEl23121Chld'><span>My Cart</span></div>
+                    </div>
+                    <div className='FooterEl2312'>
+                        <div className='FooterEl23121'><span>Vendor AREA</span></div>
+                        <div className='FooterEl23121Chld'><span>Partner with us</span></div>
+                        <div className='FooterEl23121Chld'><span>Training</span></div>
+                        <div className='FooterEl23121Chld'><span>Procedures</span></div>
+                        <div className='FooterEl23121Chld'><span>Terms</span></div>
+                        <div className='FooterEl23121Chld'><span>Privacy Policy</span></div>
+                    </div>
+                    <div className='FooterEl231Lst'>
+                        <div className='FooterEl23121'><span>CONTACT</span></div>
+                        <div className='FooterEl231122'><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span></div>
+                        <div className='FooterEl231123'>
+                            <div className='FooterEl2311231'>
+                                <FooterIcon3 />
+                            </div>
+                            <div className='FooterEl2311232'>
+                                <div className='FooterEl2311231'><span>Have any question?</span></div>
+                                <div className='FooterEl23112322'><span>+ 123 456 789</span></div>
+                            </div>
+                            <button className='FooterEl2311233'>
+                                CHAT
+                            </button>
+
+                        </div>
+                        <div>
+                            
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -87,3 +124,6 @@ function Footer() {
 }
 
 export default Footer
+
+
+
