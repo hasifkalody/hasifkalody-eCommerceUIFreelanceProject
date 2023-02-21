@@ -35,7 +35,7 @@
     gap: 0.5em;
 }
 
-.headerTopPhone span {
+.headerTop .headerTopPhone span {
     color: white;
     height: 24px;
     width: 105px;
@@ -54,7 +54,7 @@
     gap: 1em;
     /* background-color: red; */
 }
-.headerTopMail span {
+.headerTop .headerTopMail span {
     height: 24px;
     width: 156px;
     font-family: Poppins;
@@ -71,7 +71,7 @@
     border-radius: 22px;
 }
 
-.headerTopLoc span {
+.headerTop .headerTopLoc span {
     width: 79px;
     height: 24px;
     font-family: 'Poppins';
@@ -82,8 +82,14 @@
     color: #FFFFFF;
 
 }
+.headerTop .headerTopDol{
+    width: 8em;
+    display: flex;
+    justify-content: space-between;
+}
 
-.headerTopDol span {
+.headerTop .headerTopDol span {
+    display: block;
     width: 90px;
     height: 24px;
     font-family: 'Poppins';
@@ -92,14 +98,14 @@
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
-
+    white-space: nowrap;
 }
 
 .headerTopRight .headerTopDol {
     gap: 0em;
 }
 
-.headerTopLang span {
+.headerTop .headerTopLang span {
     width: 21px;
     height: 24px;
     font-family: 'Poppins';
@@ -130,7 +136,7 @@
         gap:  calc(.5em*.71);
     }
 
-    .headerTopPhone span {
+    .headerTop .headerTopPhone span {
         height:  calc(24px*.71);
         width:  calc(105px*.71);
         font-size:  calc(16px*.71);
@@ -140,7 +146,7 @@
 
     }
 
-    .headerTopMail span {
+    .headerTop .headerTopMail span {
         height:  calc(24px*.71);
         width:  calc(156px*.71);
         font-size:  calc(16px*.71);
@@ -153,7 +159,7 @@
         border-radius: calc(22px*.71);
     }
 
-    .headerTopLoc span {
+    .headerTop .headerTopLoc span {
         width: calc(79px*.71);
         height: calc(24px*.71);
         /* font-weight: calc(600*.91); */
@@ -162,7 +168,7 @@
 
     }
 
-    .headerTopDol span {
+    .headerTop .headerTopDol span {
         width: 70px;
         height: calc(24px*.71);
         /* font-weight: calc(600*.91); */
@@ -170,7 +176,7 @@
         line-height: calc(24px*.71);
 
     }
-    .headerTopLang span {
+    .headerTop .headerTopLang span {
         width: calc(21px*.71);
         height: calc(24px*.71);
         /* font-weight:calc(600*.91); */
@@ -181,6 +187,9 @@
 
     .headerTopRight .headerTopLang {
         gap: calc(1em*.71);
+    }
+    .headerTop .headerTopDol{
+        width: 5.5em;
     }
 
 }
