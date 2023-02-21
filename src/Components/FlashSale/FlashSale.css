@@ -1,0 +1,287 @@
+.FsMain {
+    display: flex;
+    justify-content: center;
+}
+
+.Fs {
+    width: 88%;
+    height: 371px;
+    border-radius: 30px;
+    background-color: #3187ED;
+    background-image: url("../../Assets//ImagesForFlashSale/image\ 6.png");
+    mix-blend-mode: overlay;
+    /* padding: 4em; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.FsEl1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    width: 25%;
+}
+
+.FsEl11 {
+    width: 246px;
+    height: 72px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.FsEl12 {
+    width: 369px;
+    height: 84px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.FsEl13 {
+    width: 355px;
+    height: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.FsEl2 {
+    width: 448px;
+    height: 168px;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.5em;
+}
+
+.FsEl2Inner {
+    display: flex;
+    width: 85%;
+    gap: 2em;
+}
+
+.FsEl2 img {
+    width: 95px;
+    height: 114px;
+    border-radius: 10px;
+}
+
+.FsEl222 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FsEl22 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.FsEl221 span {
+    width: 267px;
+    height: 73px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.FsEl222spn1 {
+    width: 55px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3187ED;
+
+}
+
+.FsEl222spn2 {
+    width: 49px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8D8D8D;
+}
+
+.FsEl223 {
+    width: 194.36px;
+    height: 10px;
+    background: #3187ED;
+    border-radius: 40px;
+}
+
+.FsImSelector {
+
+    display: flex;
+    gap: .4em;
+}
+
+.FsImSelectorMain {
+    position: absolute;
+    bottom: 55px;
+    right: 75px;
+    display: flex;
+    align-items: center;
+    width: 62.5%;
+    justify-content: space-between;
+}
+
+.FsImSelector1 {
+    width: 9.71px;
+    height: 9.71px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.22);
+}
+
+.FsImSelector1Active {
+    width: 21px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+.FsImSelectorMain span {
+    width: 88px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+@media(max-width:1366px) {
+    .Fs {
+        height: calc(371px*.71);
+        border-radius: calc(30px*.71);
+    }
+    
+    .FsEl1 {
+        gap: calc(1.5em*.71);
+        /* width: 25%; */
+    }
+    
+    .FsEl11 {
+        width: calc(246px*.71);
+        height: calc(72px*.71);
+        /* font-weight: 600; */
+        font-size: calc(48px*.71);
+        line-height: calc(72px*.71);
+    }
+    
+    .FsEl12 {
+        width: calc(369px*.71);
+        height: calc(84px*.71);
+        /* font-weight: 400; */
+        font-size: calc(16px*.71);
+        line-height: calc(28px*.71);
+    }
+    
+    .FsEl13 {
+        width: calc(355px*.71);
+        height: calc(28px*.71);
+        /* font-weight: 700; */
+        font-size: calc(48px*.71);
+        line-height: calc(28px*.71);
+        letter-spacing: -0.04em;
+    }
+    
+    .FsEl2 {
+        width: calc(448px*.71);
+        height: calc(168px*.71);
+        box-shadow: 0px calc(14px*.71) calc(28px*.71) rgba(0, 0, 0, 0.12);
+        border-radius: calc(15px*.71);
+        margin-left: calc(2.5em*.71);
+    }
+    
+    .FsEl2Inner {
+        gap: calc(2.5em*.71);
+    }
+    
+    .FsEl2 img {
+        width: calc(95px*.71);
+        height: calc(114px*.71);
+        border-radius: calc(10px*.71);
+    }
+    .FsEl221 span {
+        width: calc(267px*.71);
+        height: calc(73px*.71);
+        /* font-weight: 500; */
+        font-size: calc(16px*.71);
+        line-height: calc(24px*.71);
+    }
+    
+    .FsEl222spn1 {
+        width: calc(55px*.71);
+        height: calc(30px*.71);
+        /* font-weight: 600; */
+        font-size: calc(20px*.71);
+        line-height: calc(30px*.71);    
+    }
+    
+    .FsEl222spn2 {
+        width: calc(49px*.71);
+        height: calc(24px*.71);
+        /* font-weight: 400; */
+        font-size: calc(16px*.71);
+        line-height: calc(24px*.71);
+    }
+    
+    .FsEl223 {
+        width: calc(194.6px*.71);
+        height: calc(10px*.71);
+        border-radius: calc(40px*.71);
+    }
+    
+    .FsImSelector {
+        gap: calc(.4em*.71);
+    }
+    
+    .FsImSelectorMain {
+        bottom: calc(55px*.71);
+        right: calc(75px*.71);
+        /* width: 62.5%; */
+    }
+    
+    .FsImSelector1 {
+        width: calc(9.71px*.71);
+        height: calc(9.71px*.71);
+        /* border-radius: 50%; */
+    }
+    
+    .FsImSelector1Active {
+        width: calc(21px*.71);
+        border-radius:calc(5px*.71);
+    }
+    
+    .FsImSelectorMain span {
+        width: calc(88px*.71);
+        height: calc(24px*.71);
+        /* font-weight: 700; */
+        font-size: calc(16px*.71);
+        line-height: calc(24px*.71);
+    }
+}
