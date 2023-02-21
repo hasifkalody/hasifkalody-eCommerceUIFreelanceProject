@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+}
+
+.sctn2Main {
+    background: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.sctn2Lft {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.sctn2 {
+    width: 88%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    display: flex;
+    gap: 2em;
+}
+
+.sctn2Lft2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.sctn2Lft1 {
+    width: 238px;
+    height: 135px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+    width: 100%;
+
+}
+
+.sctn2Lft2spnL,
+.sctn2Lft2spnR {
+    width: 58px;
+    height: 58px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 14px rgba(100, 106, 131, 0.16);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sctn2Lft2spnL div,
+.sctn2Lft2spnR div {
+    width: 11.19px;
+    height: 11.19px;
+    border-top: 4px solid #000000;
+    border-right: 4px solid #000000;
+    transform: rotate(-135deg);
+}
+
+.sctn2Lft2spnR div {
+    transform: rotate(45deg);
+}
+
+.sctn2Lft3 {
+    width: 100%;
+    height: 70px;
+    background: #00C6D7;
+    box-shadow: 0px 11px 27px rgba(0, 198, 215, 0.35);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sctn2Lft3 span {
+    width: 69px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+
+}
+
+.sctn2Lft3 div {
+    width: 11.19px;
+    height: 11.19px;
+    border-top: 3px solid #FFFFFF;
+    border-right: 3px solid #FFFFFF;
+    transform: rotate(45deg);
+}
+
+@media(max-width:1366px) {
+    .sctn2Lft {
+        width: calc(220px*.71) ;
+    }
+
+    .sctn2 {
+        padding-top: calc(3em*.71) ;
+        padding-bottom: calc(3em*.71) ;
+        gap: calc(3em*.71) ;
+    }
+
+    .sctn2Lft2 {
+        gap: calc(1.5em*.71) ;
+        margin-top: calc(2em*.71) ;
+    }
+
+    .sctn2Lft1 {
+        width: calc(238px*.71) ;
+        height: calc(135px*.71) ;
+        font-weight: 600;
+        font-size: calc(30px*.71) ;
+        line-height: calc(45px*.71) ;
+    }
+
+    .sctn2Lft2spnL,
+    .sctn2Lft2spnR {
+        width: calc(58px*.71) ;
+        height: calc(58px*.71) ;
+        background: #FFFFFF;
+    }
+
+    .sctn2Lft2spnL div,
+    .sctn2Lft2spnR div {
+        width: calc(11.19px*.71) ;
+        height: calc(11.19px*.71) ;
+    }
+    .sctn2Lft3 {
+        width: calc(191px*.71) ;
+        height: calc(70px*.71) ;
+        border-radius: calc(12px*.71) ;
+        margin-top: calc(2em*.71) ;
+    }
+
+    .sctn2Lft3 span {
+        width: calc(69px*.71) ;
+        height: calc(27px*.71) ;
+        /* font-weight: 700; */
+        font-size: calc(18px*.71) ;
+        line-height: calc(27px*.71) ;
+    }
+
+    .sctn2Lft3 div {
+        width: calc(11.9px*.71) ;
+        height: calc(11.9px*.71) ;
+    }
+}
