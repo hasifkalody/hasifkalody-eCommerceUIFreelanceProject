@@ -79,7 +79,7 @@
     .sctn1Prdcts {
         gap: calc(2.5em*.71) ;
         padding:calc(2em*.71) ;
-        padding-top: calc(2.5en*.71) ;
+        padding-top: calc(2.5em*.71) ;
     }
     .sctn1 {
         padding-top: calc(2em*.71) ;
