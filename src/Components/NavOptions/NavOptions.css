@@ -16,14 +16,11 @@
 .nvOptns,
 .nvCtgrs {
     display: flex;
-    /* justify-content: space-around; */
+    gap: 1em;
     align-items: center;
 }
 
-.nvCtgrs {
 
-    /* width: 90px; */
-}
 
 .nvCtgrs span {
     width: 102px;
@@ -35,6 +32,7 @@
     line-height: 24px;
     text-transform: capitalize;
     color: #4D4D4D;
+    white-space: nowrap;
 }
 
 .nvCtgrOptns span {
