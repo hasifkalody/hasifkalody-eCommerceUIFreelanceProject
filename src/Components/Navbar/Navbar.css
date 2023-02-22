@@ -1,6 +1,13 @@
 * {
     box-sizing: border-box;
 }
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+  }
 
 .NavbarMain {
     width: 100vw;
@@ -171,46 +178,6 @@
 }
 
 @media(max-width:1366px){
-    /* .NavLgtxt1{
-        Width:calc(5*.71) ;
-        Height:calc( 5*.71);
-    }
-    .NavLgtxt2{
-        Width:calc(17*.71) ;
-        Height:calc( 16*.71);
-    }
-    .NavLgtxt3{
-        Width:calc(17*.71) ;
-        Height:calc( 22*.71);
-    }
-    .NavLgtxt4{
-        Width:calc(17*.71) ;
-        Height:calc( 16*.71);
-    }
-    .NavLgtxt5{
-        Width:calc(6*.71) ;
-        Height:calc( 22*.71);
-    }
-    .NavLgtxt6{
-        Width:calc(17*.71) ;
-        Height:calc( 21*.71);
-    }
-    .NavLgtxt7{
-        Width:calc(13*.71) ;
-        Height:calc( 16*.71);
-    }
-    .NavLgtxt8{
-        Width:calc(15*.71) ;
-        Height:calc( 16*.71);
-    }
-    .NavLgtxt9{
-        Width:calc(23*.71) ;
-        Height:calc( 16*.71);
-    }
-    .NavLgtxt10{
-        Width:calc(8*.71) ;
-        Height:calc( 7*.71);
-    } */
     .NavLgElmnt1 {
         Width:calc(19.45px*.71) ;
         Height:calc( 42.34px*.71);

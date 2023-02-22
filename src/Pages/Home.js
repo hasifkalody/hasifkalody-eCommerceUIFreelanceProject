@@ -11,13 +11,15 @@ import HotSale from '../Components/HotSale/HotSale'
 import Section3 from '../Components/Section3/Section3'
 import RecentViews from '../Components/RecentViews/RecentViews'
 import Footer from '../Components/Footer/Footer'
+import ImageCarousel from '../Components/ImageCarousel/ImageCarousel'
 
 function Home() {
   return (
     <div>
       <HeaderTop/>
-      {/* <Navbar/>
+      <Navbar/>
       <NavOptions/>
+      <ImageCarousel/>
       <Carousel/> 
       <Section1/>
       <Section2/>
@@ -25,7 +27,7 @@ function Home() {
       <FlashSale/>
       <HotSale/>
       <Section3/>
-      <RecentViews/> */}
+      <RecentViews/>
       <Footer/>
     </div>
   )

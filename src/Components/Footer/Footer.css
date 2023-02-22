@@ -132,8 +132,8 @@
     right: -30px;
 }
 
-.FooterEl23 {
-    height: 570px;
+.FooterMn .FooterEl23 {
+    height: 500px;
     display: flex;
     justify-content: center;
     overflow: hidden;
@@ -510,5 +510,8 @@
 
     .FooterEl231124Mn {
         gap: calc(2em*.71);
+    }
+    .FooterMn .FooterEl23 {
+        height: calc(500px*.71);
     }
 }

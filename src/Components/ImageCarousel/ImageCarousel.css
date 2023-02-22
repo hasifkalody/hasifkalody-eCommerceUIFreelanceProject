@@ -1,0 +1,128 @@
+.Crslmain {
+    display: flex;
+    justify-content: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    /* background-color: red; */
+}
+
+.CrslCntentsTxt span {
+    width: 779px;
+    height: 232px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 121.8%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.CrslCntentsTxt{
+    transform: translateX(-14%);
+}
+.CrslCntents{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Crsl {
+    width: 88%;
+}
+
+.CrslDsply {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+
+.CrslCntents,
+.CrslCntentsSd1,
+.CrslCntentsSd2 {
+    width: 1296px;
+    height: 489px;
+    background: url('../../Assets/ImagesFrCarousel//Rectangle1.png');
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.CrslCntentsSd1,
+.CrslCntentsSd2 {
+    background: none;
+    background-color: orange;
+    width: 1166px;
+    height: 440px;
+}
+
+.CrslCntentsSd2 {
+    background-color: grey;
+}
+
+.CrslSelctr {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 4em;
+}
+
+.CrslSelctrEl {
+    width: 9.7px;
+    height: 9.7px;
+    border-radius: 50%;
+    background: #DADADA;
+}
+
+.CrslSelctrActive {
+    background-color: #3187ED;
+    width: 21px;
+    border-radius: 5px;
+}
+
+@media(max-width:1366px) {
+    .Crslmain {
+        padding-top: calc(4em*.71);
+        padding-bottom: calc(4em*.71);
+    }
+
+    .CrslDsply {
+        gap: calc(2em*.71);
+    }
+
+
+    .CrslCntents,
+    .CrslCntentsSd1,
+    .CrslCntentsSd2 {
+        width: calc(1296px*.81);
+        height: calc(489px*.81);
+        border-radius: calc(40px*.71);
+    }
+
+    .CrslCntentsSd1,
+    .CrslCntentsSd2 {
+        width: calc(1166px*.81);
+        height: calc(440px*.81);
+    }
+
+    .CrslSelctr {
+        gap: calc(1.5em*.71);
+        margin-top: calc(4em*.71);
+    }
+
+    .CrslSelctrEl {
+        width: calc(9.7px*.71);
+        height: calc(9.7px*.71);
+    }
+
+    .CrslSelctrActive {
+        width: calc(21px*.71);
+        border-radius: calc(5px*.71);
+    }
+    .CrslCntentsTxt span {
+        width: calc(779px*.71);
+        height: calc(232px*.71);
+        font-size: calc(34px*.71);
+    }
+}
