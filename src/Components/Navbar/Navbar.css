@@ -3,11 +3,13 @@
 }
 ::-webkit-scrollbar{
     width: 10px;
+    height: 0;
 }
 ::-webkit-scrollbar-thumb {
     background: grey;
     border-radius: 10px;
   }
+
 
 .NavbarMain {
     width: 100vw;
