@@ -65,7 +65,7 @@
         height: calc(48px*.71) ;
         /* font-weight: 400; */
         font-size: calc(16px*.71) ;
-        line-height: calc24(px*.71) ;
+        line-height: calc(24px*.71) ;
     
     }
     
@@ -84,7 +84,7 @@
     }
     
     .sctn1CrdDetails3 span {
-        width: calc29(px*.71) ;
+        width: calc(29px*.71) ;
         height: calc(24px*.71) ;
         /* font-weight: 400; */
         font-size: calc(16px*.71) ;
