@@ -286,12 +286,17 @@
 
 
 
-    /* .NavbarMain .NavMiddle{
-       background-color: red;
-       justify-content: space-around;
-    } */
+    .NavbarMain .NavMiddle{
+       /* background-color: red; */
+       justify-content: space-between;
+    }
     .NavbarLg {
         gap: .8em;
+    }
+    .NavMiddle{
+        width: 100%;
+        
+        justify-content: space-between;
     }
 
     .NvDrpDwn {
@@ -304,6 +309,7 @@
 
     .NvSearch {
         width: 100%;
+        display: none;
         /* height: calc(70px*.26);   */
         border-radius: calc(12px*.26);
         /* padding: calc(20px*.26); */
@@ -326,9 +332,9 @@
         padding-top: 5px;
     }
 
-    /* .NavHeart {
+    .NavHeart {
         display: none;
-    } */
+    }
 
     .CartElmnts {
         display: none;

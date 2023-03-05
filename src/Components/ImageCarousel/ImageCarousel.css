@@ -158,16 +158,16 @@
         gap: calc(1.5em*.26);
         margin-top: calc(4em*.26);
     }
-/* 
-    .CrslSelctrEl {
+
+    /* .CrslSelctrEl {
         width: calc(9.7px*.26);
         height: calc(9.7px*.26);
     } */
 
-    .CrslSelctrActive {
+    /* .CrslSelctrActive {
         width: calc(21px*.26);
         border-radius: calc(5px*.26);
-    }
+    } */
     .CrslCntentsTxt span {
         width: calc(779px*.26);
         height: calc(232px*.26);

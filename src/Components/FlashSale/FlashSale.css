@@ -334,6 +334,7 @@
     
     .FsEl2Inner {
         gap: calc(2.5em*.26);
+        align-items: center;
     }
     
     .FsEl2 img {
