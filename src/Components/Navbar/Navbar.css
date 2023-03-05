@@ -247,7 +247,6 @@
         top: calc(-5px*.71);
         border: calc(2px*.71) solid #FFFF;
     }
-
     .NavCount span {
         left: calc(4px*.71);
         width: calc(10px*.71);
@@ -292,11 +291,13 @@
     }
     .NavbarLg {
         gap: .8em;
+        justify-content: flex-start;
+       
     }
     .NavMiddle{
-        width: 100%;
-        
-        justify-content: space-between;
+        /* width: 100%; */
+     
+        /* justify-content:center; */
     }
 
     .NvDrpDwn {
@@ -308,8 +309,7 @@
     }
 
     .NvSearch {
-        width: 100%;
-        display: none;
+        width: 55%;
         /* height: calc(70px*.26);   */
         border-radius: calc(12px*.26);
         /* padding: calc(20px*.26); */
@@ -326,7 +326,10 @@
         width: 100px;
 
     }
-
+    .Navbar{
+        display: flex;
+        justify-content: space-between;
+    }
     .NavbarMain {
         height: auto;
         padding-top: 5px;
