@@ -27,12 +27,14 @@
 /* for mobile */
 @media(max-width:500px) {
     .htSale {
-        margin-top: calc(2em*.26);
-        margin-bottom: calc(2em*.26);
+        /* margin-top: calc(2em*.26);
+        margin-bottom: calc(2em*.26); */
+        scroll-snap-type: X mandatory;
     }
     
     .htCard {
-        width: calc(273px*.26);
-        height: calc(504px*.26);
+        /* width: calc(273px*.26);
+        height: calc(504px*.26); */
+        scroll-snap-align: center;
     }
 }

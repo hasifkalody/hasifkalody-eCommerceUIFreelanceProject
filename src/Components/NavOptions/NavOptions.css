@@ -83,24 +83,28 @@
 }
 /* for mobile */
 @media(max-width:500px){
-    .nvOptMain {
+    .nvOptns{
+        overflow: scroll;
+    }
+    /* .nvOptMain {
         height: calc(61px*.26) ;
         box-shadow: 0px calc(20px*.26)  calc(20px*.26) rgba(0, 0, 0, 0.03);
     }
     
+    
     .nvOptns {
         gap: calc(5em*.26) ;
     }
- 
-    .nvCtgrs span {
+  */
+    /* .nvCtgrs span {
         width: calc(102px*.26) ;
         height: calc(24px*.26) ;
         font-weight: calc(400*.26) ;
         font-size: calc(16px*.26) ;
         line-height:calc(24px*.26) ;
     }
-    
-    .nvCtgrOptns span {
+     */
+    /* .nvCtgrOptns span {
         height: calc(24px*.26) ;
         font-weight: calc(400*.26) ;
         font-size: calc(16px*.26) ;
@@ -109,5 +113,5 @@
     }
     .nvCtgrOptns {
         gap: calc(1em*.26) ;
-    }
+    } */
 }

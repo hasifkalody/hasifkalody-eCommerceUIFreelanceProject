@@ -106,8 +106,8 @@ body {
 }
 
 @media(max-width:1366px) {
-    .sctn2Lft {
-        width: calc(220px*.71) ;
+    .sctn2Main .sctn2Lft {
+        width: 150px ;      
     }
 
     .sctn2 {
@@ -172,12 +172,23 @@ body {
 @media(max-width:500px) {
     .sctn2Lft {
         width: calc(220px*.26) ;
+        scroll-snap-type: center;
+        display: none;
+    }
+    .sctn2CardMain{
+        scroll-snap-align: center;
+    }
+    .sctn2{
+        gap: .5em;
     }
 
     .sctn2 {
-        padding-top: calc(3em*.26) ;
+        display: flex;
+        overflow: scroll;
+        scroll-snap-type: X mandatory;
+        /* padding-top: calc(3em*.26) ;
         padding-bottom: calc(3em*.26) ;
-        gap: calc(3em*.26) ;
+        gap: calc(3em*.26) ; */
     }
 
     .sctn2Lft2 {
@@ -186,48 +197,49 @@ body {
     }
 
     .sctn2Lft1 {
-        width: calc(238px*.26) ;
+        width: calc(100%) ;
         height: calc(135px*.26) ;
-        font-weight: 600;
-        font-size: calc(30px*.26) ;
-        line-height: calc(45px*.26) ;
+        /* font-weight: 600; */
+        font-size: calc(18px) ;
+        /* line-height: calc(45px*.26) ; */
     }
 
-    .sctn2Lft2spnL,
+    /* .sctn2Lft2spnL,
     .sctn2Lft2spnR {
         width: calc(58px*.26) ;
         height: calc(58px*.26) ;
         background: #FFFFFF;
-    }
+    } */
 
-    .sctn2Lft2spnL div,
+    /* .sctn2Lft2spnL div,
     .sctn2Lft2spnR div {
         width: calc(11.19px*.26) ;
         height: calc(11.19px*.26) ;
         border-top: calc(4px*.26) solid #000000;
         border-right: calc(4px*.26)  solid #000000;
-    }
+    } */
     .sctn2Lft3 {
-        width: calc(191px*.26) ;
-        height: calc(70px*.26) ;
-        border-radius: calc(12px*.26) ;
+        width: calc(100px) ;
+        /* height: calc(70px*.26) ; */
+        border-radius: calc(5px) ;
         margin-top: calc(2em*.26) ;
     }
 
     .sctn2Lft3 span {
-        width: calc(69px*.26) ;
+        /* width: calc(69px*.26) ; */
         height: calc(27px*.26) ;
         /* font-weight: 700; */
-        font-size: calc(18px*.26) ;
+        font-size: calc(14px) ;
         line-height: calc(27px*.26) ;
     }
 
     .sctn2Lft3 div {
-        width: calc(11.9px*.26) ;
-        height: calc(11.9px*.26) ;
+        /* width: calc(11.9px*.26) ;
+        height: calc(11.9px*.26) ; */
     }
     .sctn2Main {
         padding-top: calc(2em*.26) ;
         padding-bottom: calc(2em*.26) ;
+        scroll-snap-type: X mandatory;
     }
 }

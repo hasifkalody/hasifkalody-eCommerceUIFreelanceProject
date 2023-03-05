@@ -90,25 +90,36 @@
 @media(max-width:500px){
 
     .sctn1Tp .sctn1Lft {
-        width: calc(238px*.26) ;
-        height: calc(45px*.26) ;
+        /* width: calc(238px*.26) ;
+        height: calc(45px*.26) ; */
         /* font-weight: calc(600*.26) ; */
-        font-size: calc(30px*.26) ;
-        line-height: calc(45px*.26) ;
+        /* font-size: calc(30px*.26) ;
+        line-height: calc(45px*.26) ; */
     }
-    
+    .sctn1Tp span{
+        white-space: nowrap;
+
+    }
     .sctn1Rght {
-        width: calc(238px*.26) ;
-        height: calc(30px*.26) ;
+        /* width: calc(238px*.26) ;
+        height: calc(30px*.26) ; */
         /* font-weight: 600; */
-        font-size: calc(20px*.26) ;
-        line-height: calc(30px*.26) ;
+        /* font-size: calc(20px*.26) ;
+        line-height: calc(30px*.26) ; */
     }
     
     .sctn1Prdcts {
-        gap: calc(2.5em*.26) ;
+        /* gap: calc(2.5em*.26) ;
         padding:calc(2em*.26) ;
-        padding-top: calc(2.5em*.26) ;
+        padding-top: calc(2.5em*.26) ; */
+        flex-wrap: nowrap;
+        overflow: scroll;
+        gap: 2em;
+        scroll-snap-type: X mandatory;
+       
+    }
+    .sctn1Card{
+        scroll-snap-align:center;
     }
     .sctn1 {
         padding-top: calc(2em*.26) ;

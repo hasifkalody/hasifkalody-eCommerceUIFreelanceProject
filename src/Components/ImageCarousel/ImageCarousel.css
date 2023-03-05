@@ -142,26 +142,27 @@
     .CrslCntents,
     .CrslCntentsSd1,
     .CrslCntentsSd2 {
-        width: calc(1296px*.81);
-        height: calc(489px*.81);
+        width: calc(1296px*.26);
+        height: calc(200px);
         border-radius: calc(40px*.26);
+        background-position: center center;
     }
 
     .CrslCntentsSd1,
     .CrslCntentsSd2 {
-        width: calc(1166px*.81);
-        height: calc(440px*.81);
+        width: calc(1166px*.26);
+        height: calc(180px);
     }
 
     .CrslSelctr {
         gap: calc(1.5em*.26);
         margin-top: calc(4em*.26);
     }
-
+/* 
     .CrslSelctrEl {
         width: calc(9.7px*.26);
         height: calc(9.7px*.26);
-    }
+    } */
 
     .CrslSelctrActive {
         width: calc(21px*.26);
@@ -170,6 +171,6 @@
     .CrslCntentsTxt span {
         width: calc(779px*.26);
         height: calc(232px*.26);
-        font-size: calc(34px*.26);
+        font-size: calc(14px);
     }
 }

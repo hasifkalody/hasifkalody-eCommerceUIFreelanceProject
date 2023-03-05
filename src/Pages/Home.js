@@ -16,7 +16,7 @@ function Home() {
   return (
     <div>
       <HeaderTop/>
-      {/* <Navbar/>
+      <Navbar/>
       <NavOptions/>
       <ImageCarousel/> 
       <Section1/>
@@ -26,7 +26,7 @@ function Home() {
       <HotSale/>
       <Section3/>
       <RecentViews/>
-      <Footer/> */}
+      <Footer/>
     </div>
   )
 }

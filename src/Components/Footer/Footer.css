@@ -529,6 +529,9 @@
         height: calc(103px*.26);
         gap: calc(1.5em*.26);
     }
+    /* .FooterEl2{
+        display: none;
+    } */
 
     .FooterEl1 span {
         width: calc(141px*.26);
@@ -621,89 +624,67 @@
     .FooterEl231Lst {
         height: calc(20em*.26);
     }
-
+/* 
     .FooterEl23121 span {
-        width: calc(126px*.26);
-        height: calc(30px*.26);
-        font-size: calc(20px*.26);
-        line-height: calc(30px*.26);
-    }
+        display: none;
+    } */
 
     .FooterEl23121Chld span {
-        width: calc(99px*.26);
-        font-size: calc(18px*.26);
-        line-height: calc(44px*.26);
+        display: none;
 
     }
 
     .FooterEl231122 {
-        height: calc(48px*.26);
-        width: calc(28em*.26);
-        font-size: calc(16px*.26);
-        line-height: calc(24px*.26);
+        display: none;
     }
 
     .FooterEl2311231 {
-        height: calc(24px*.26);
-        font-size: calc(14px*.26);
-        line-height: calc(24px*.26);
+        display: none;
 
     }
 
     .FooterEl23112322 {
-        width: calc(120px*.26);
-        height: calc(24px*.26);
-        font-size: calc(18px*.26);
-        line-height: calc(24px*.26);
+        display: none;
+    }
+    .FooterEl213 input::placeholder{
+        font-size: 10px;
     }
 
     .FooterEl231Lst .FooterEl2311232 {
-        width: calc(100px*.26);
+        display: none;
 
     }
 
     .FooterEl2311233 {
-        width: calc(121px*.26);
-        height: calc(54px*.26);
-        border-radius: calc(12px*.26);
-        font-size: calc(18px*.26);
-        line-height: calc(24px*.26);
+        display: none;
     }
 
     .FooterEl231Lst .FooterEl231123 {
-        gap: calc(4em*.26);
+        display: none;
     }
 
     .FooterEl231124 {
-        width: calc(231px*.26);
-        height: calc(76px*.26);
-        border-radius: calc(12px*.26);
+        display: none;
     }
 
     .FooterEl23112421 {
-        width: calc(92px*.26);
-        height: calc(24px*.26);
-        font-size: calc(12px*.26);
-        line-height: calc(24px*.26);
+        display: none;
     }
 
     .FooterEl23112422 {
-        height: calc(24px*.26);
-        font-size: calc(20px*.26);
-        line-height: calc(24px*.26);
-
+        display: none;
 
     }
 
     .FooterEl2311242 {
-        transform: translateX(calc(-20px*.26));
+        display: none;
 
     }
 
     .FooterEl231124Mn {
-        gap: calc(2em*.26);
+        display: none;
     }
     .FooterMn .FooterEl23 {
-        height: calc(500px*.26);
+        display: none;
     }
 }

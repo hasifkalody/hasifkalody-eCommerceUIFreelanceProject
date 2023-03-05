@@ -48,3 +48,20 @@
     padding-bottom: 2em;
     overflow: hidden;
 }
+@media(max-width:500px){
+    .RcCarousel{
+        display: flex;
+        overflow-x: scroll;
+        scroll-snap-type: X mandatory;
+    }
+    .RcmndtnsCard{
+        scroll-snap-align: center;
+    }
+    .Rcmndtns{
+        padding: .5em;
+    }
+    .RcTpEl1 span{
+        font-size: 20px;
+    }
+    
+}

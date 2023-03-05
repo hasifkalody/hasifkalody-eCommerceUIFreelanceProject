@@ -1,14 +1,16 @@
 * {
     box-sizing: border-box;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     width: 10px;
     height: 0;
 }
+
 ::-webkit-scrollbar-thumb {
     background: grey;
     border-radius: 10px;
-  }
+}
 
 
 .NavbarMain {
@@ -26,7 +28,8 @@
     align-items: center;
     position: relative;
 }
-.NavMiddle{
+
+.NavMiddle {
     width: 88%;
     display: flex;
     align-items: center;
@@ -87,7 +90,7 @@
     font-size: 20px;
     line-height: 30px;
     color: #4D4D4D;
-   
+
 }
 
 .NvSearch {
@@ -101,9 +104,11 @@
     padding: 20px;
     margin-left: 1em;
 }
-.NavHeart{
+
+.NavHeart {
     margin-left: 6em;
 }
+
 .NvSearch input {
     background: #F8F8F8;
     border: none;
@@ -162,9 +167,12 @@
     /* position: absolute;
     right: 0; */
 }
-.Navleft{
-    width: 70vw;background-color: red;
+
+.Navleft {
+    width: 70vw;
+    background-color: red;
 }
+
 .NavClsfds span {
     width: 86px;
     height: 27px;
@@ -173,34 +181,41 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
-    color: #FFFFFF; 
+    color: #FFFFFF;
 }
-.NavCart,.NavIcn{
+
+.NavCart,
+.NavIcn {
     margin-left: 2em;
 }
 
-@media(max-width:1366px){
+@media(max-width:1366px) {
     .NavLgElmnt1 {
-        Width:calc(19.45px*.71) ;
-        Height:calc( 42.34px*.71);
+        Width: calc(19.45px*.71);
+        Height: calc(42.34px*.71);
     }
+
     .NavbarMain {
-        height: calc(149px*.71);  
+        height: calc(149px*.71);
     }
+
     .NavLgElmnt2 {
         width: calc(30px*.71);
         height: calc(30px*.71);
         left: calc(5px*.71);
     }
+
     .NavbarLg {
         width: calc(190px*.91);
     }
+
     .NvDrpDwn {
         width: calc(246px*.71);
         height: calc(70px*.71);
         border-radius: calc(12px*.71);
         margin-left: calc(3em*.71);
     }
+
     .NvDrpDwn span {
         width: calc(110px*.71);
         height: calc(30px*.71);
@@ -208,27 +223,31 @@
         font-size: calc(20px*.71);
         line-height: calc(30px*.71);
     }
+
     .NvSearch {
         width: calc(554px*.71);
-        height: calc(70px*.71);  
+        height: calc(70px*.71);
         border-radius: calc(12px*.71);
         padding: calc(20px*.71);
         margin-left: calc(1em*.71);
     }
-    .NavHeart{
+
+    .NavHeart {
         margin-left: calc(6em*.71);
     }
+
     .CartElmnts {
         bottom: calc(4px*.71);
     }
+
     .NavCount {
-        width:  calc(21px*.81);
+        width: calc(21px*.81);
         height: calc(21px*.81);
         left: calc(10px*.71);
         top: calc(-5px*.71);
         border: calc(2px*.71) solid #FFFF;
     }
-    
+
     .NavCount span {
         left: calc(4px*.71);
         width: calc(10px*.71);
@@ -237,14 +256,14 @@
         font-size: calc(16px*.71);
         line-height: calc(19px*.71);
     }
-    
+
     .NavClsfds {
         width: calc(164px*.71);
         height: calc(70px*.71);
         box-shadow: 0px calc(11px*.71) calc(27px*.71) rgba(0, 198, 215, 0.35);
         border-radius: calc(12px*.71);
     }
-    
+
     .NavClsfds span {
         width: calc(60px);
         height: calc(27px*.71);
@@ -253,90 +272,88 @@
         line-height: calc(27px*.71);
 
     }
-    .NavCart,.NavIcn{
+
+    .NavCart,
+    .NavIcn {
         margin-left: calc(2em*.71);
     }
-    
-    
+
+
 }
+
 /* for mobile */
-@media(max-width:500px){
-    .NavLgElmnt1 {
-        Width:calc(19.45px*.26) ;
-        Height:calc( 42.34px*.26);
-    }
-    .NavbarMain {
-        height: calc(149px*.26);  
-    }
-    .NavLgElmnt2 {
-        width: calc(30px*.26);
-        height: calc(30px*.26);
-        left: calc(5px*.26);
-    }
+@media(max-width:500px) {
+
+
+
+    /* .NavbarMain .NavMiddle{
+       background-color: red;
+       justify-content: space-around;
+    } */
     .NavbarLg {
-        width: calc(190px*.91);
+        gap: .8em;
     }
+
     .NvDrpDwn {
-        width: calc(246px*.26);
-        height: calc(70px*.26);
-        border-radius: calc(12px*.26);
-        margin-left: calc(3em*.26);
+        display: none;
     }
+
     .NvDrpDwn span {
-        width: calc(110px*.26);
-        height: calc(30px*.26);
-        font-weight: calc(500*.26);
-        font-size: calc(20px*.26);
-        line-height: calc(30px*.26);
+        display: none;
     }
+
     .NvSearch {
-        width: calc(554px*.26);
-        height: calc(70px*.26);  
+        width: 100%;
+        /* height: calc(70px*.26);   */
         border-radius: calc(12px*.26);
-        padding: calc(20px*.26);
+        /* padding: calc(20px*.26); */
         margin-left: calc(1em*.26);
+        gap: 0;
+        align-items: center;
     }
-    .NavHeart{
-        margin-left: calc(6em*.26);
+
+    .NvSearch input {
+        width: 80%;
     }
-    .CartElmnts {
-        bottom: calc(4px*.26);
-    }
-    .NavCount {
-        width:  calc(21px*.81);
-        height: calc(21px*.81);
-        left: calc(10px*.26);
-        top: calc(-5px*.26);
-        border: calc(2px*.26) solid #FFFF;
-    }
-    
-    .NavCount span {
-        left: calc(4px*.26);
-        width: calc(10px*.26);
-        height: calc(19px*.26);
-        font-weight: calc(800*.26);
-        font-size: calc(16px*.26);
-        line-height: calc(19px*.26);
-    }
-    
-    .NavClsfds {
-        width: calc(164px*.26);
-        height: calc(70px*.26);
-        box-shadow: 0px calc(11px*.26) calc(27px*.26) rgba(0, 198, 215, 0.35);
-        border-radius: calc(12px*.26);
-    }
-    
-    .NavClsfds span {
-        width: calc(60px);
-        height: calc(27px*.26);
-        font-weight: calc(700*.26);
-        font-size: calc(18px*.26);
-        line-height: calc(27px*.26);
+
+    .Logo {
+        width: 100px;
 
     }
-    .NavCart,.NavIcn{
-        margin-left: calc(2em*.26);
+
+    .NavbarMain {
+        height: auto;
+        padding-top: 5px;
     }
-    
-    
+
+    /* .NavHeart {
+        display: none;
+    } */
+
+    .CartElmnts {
+        display: none;
+    }
+
+    .NavCount {
+        display: none;
+    }
+
+    .NavCount span {
+        display: none;
+    }
+
+    .NavClsfds {
+        display: none;
+    }
+
+    .NavClsfds span {
+        display: none;
+    }
+
+    .NavCart,
+    .NavIcn {
+        display: none;
+    }
+
+
 }
