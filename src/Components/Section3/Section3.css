@@ -5,6 +5,7 @@
     /* height: 95vh; */
     padding-top:6em ;
     padding-bottom: 6em;
+    overflow: hidden;
 }
 
 .sc3CardsContainer {
