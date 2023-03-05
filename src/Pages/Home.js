@@ -1,5 +1,4 @@
 import React from 'react'
-import Carousel from '../Components/Carousel/Carousel'
 import FlashSale from '../Components/FlashSale/FlashSale'
 import  HeaderTop from '../Components/HeaderTop/HeaderTop'
 import Navbar from '../Components/Navbar/Navbar'
@@ -17,10 +16,9 @@ function Home() {
   return (
     <div>
       <HeaderTop/>
-      <Navbar/>
+      {/* <Navbar/>
       <NavOptions/>
-      <ImageCarousel/>
-      <Carousel/> 
+      <ImageCarousel/> 
       <Section1/>
       <Section2/>
       <Recommendations/>
@@ -28,7 +26,7 @@ function Home() {
       <HotSale/>
       <Section3/>
       <RecentViews/>
-      <Footer/>
+      <Footer/> */}
     </div>
   )
 }

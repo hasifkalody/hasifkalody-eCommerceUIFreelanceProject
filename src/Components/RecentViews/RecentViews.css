@@ -51,3 +51,25 @@
         gap: calc(5em*.71)
     }
 }
+/* for mobile */
+@media(max-width:500px) {
+    .rscntVws {
+        padding-top: calc(2em*.26);
+        padding-bottom: calc(2em*.26);
+    }
+    .rscntVwsArrowLft,.rscntVwsArrowRgt {
+        width: calc(11.19px*.26);
+        height: calc(11.19px*.26);
+        border-top: calc(4px*.26) solid #8D8D8D;
+        border-right: calc(4px*.26) solid #8D8D8D;
+    }
+    
+    .rscntVwsArrowRgt {
+        border-top: calc(4px*.26)solid #3187ED;
+        border-right: calc(4px*.26) solid #3187ED;
+    
+    }
+    .rscntVwsArrowMn{
+        gap: calc(5em*.26)
+    }
+}

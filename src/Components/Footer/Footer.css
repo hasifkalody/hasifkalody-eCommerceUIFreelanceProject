@@ -515,3 +515,195 @@
         height: calc(500px*.71);
     }
 }
+/* for mobile */
+@media(max-width:500px) {
+    .FooterEl2 {
+        height: calc(285px*.26);
+    }
+    .FooterEl211 {
+        width: calc(180px*.26);
+        height: calc(180px*.26);
+    }
+
+    .FooterEl1 {
+        height: calc(103px*.26);
+        gap: calc(1.5em*.26);
+    }
+
+    .FooterEl1 span {
+        width: calc(141px*.26);
+        height: calc(36px*.26);
+        font-size: calc(24px*.26);
+        line-height: calc(36px*.26);
+    }
+
+    .FooterEl11 {
+        width: calc(13.16px*.26);
+        height: calc(13.16px*.26);
+        border-top: calc(3px*.26)solid #8D8D8D;
+        border-left: calc(3px*.26)solid #8D8D8D;
+    }
+
+    .FooterEl2121 {
+        width: calc(338px*.26);
+        height: calc(45px*.26);
+        font-size: calc(30px*.26);
+        line-height: calc(45px*.26);
+    }
+
+    .FooterEl2122 span {
+        width: calc(663px*.26);
+        height: calc(64px*.26);
+        font-size: calc(18px*.26);
+        line-height: calc(32px*.26);
+    }
+
+    .FooterEl2123 {
+        top: calc(-10px*.26);
+    }
+
+    .FooterEl213 {
+        width: calc(653px*.26);
+        height: calc(80px*.26);
+        padding-left: calc(2em*.26);
+        border-radius: calc(12px*.26);
+    }
+
+    .FooterEl2132 {
+        width: calc(187px*.26);
+        height: calc(60px*.26);
+        border-radius: calc(12px*.26);
+        font-size: calc(18px*.26);
+        line-height: calc(24px*.26);
+
+    }
+
+    .FooterEl2133 {
+        bottom: calc(-20px*.26);
+        right: calc(-30px*.26);
+    }
+
+    .FooterEl23 {
+        height: calc(570px*.26);
+    }
+
+    .FooterEl231 {
+        padding-top: calc(6em*.26);
+        gap: calc(5em*.26);
+    }
+
+    .FooterEl2311Inner {
+        gap: calc(1.4em*.26);
+    }
+
+    .FooterEl23112 span {
+        width: calc(390px*.26);
+        height: calc(84px*.26);
+        font-size: calc(18px*.26);
+        line-height: calc(28px*.26);
+    }
+
+    .FooterEl2311 {
+        width: calc(22em*.26);
+    }
+
+    .FrEl23113Chld {
+        width: calc(58px*.26);
+        height: calc(58px*.26);
+        border-radius: calc(12px*.26);
+    }
+
+    .FooterEl2312 {
+        width:calc(10em*.26);
+        height: calc(10em*.26);
+    }
+
+    .FooterEl231Lst {
+        height: calc(20em*.26);
+    }
+
+    .FooterEl23121 span {
+        width: calc(126px*.26);
+        height: calc(30px*.26);
+        font-size: calc(20px*.26);
+        line-height: calc(30px*.26);
+    }
+
+    .FooterEl23121Chld span {
+        width: calc(99px*.26);
+        font-size: calc(18px*.26);
+        line-height: calc(44px*.26);
+
+    }
+
+    .FooterEl231122 {
+        height: calc(48px*.26);
+        width: calc(28em*.26);
+        font-size: calc(16px*.26);
+        line-height: calc(24px*.26);
+    }
+
+    .FooterEl2311231 {
+        height: calc(24px*.26);
+        font-size: calc(14px*.26);
+        line-height: calc(24px*.26);
+
+    }
+
+    .FooterEl23112322 {
+        width: calc(120px*.26);
+        height: calc(24px*.26);
+        font-size: calc(18px*.26);
+        line-height: calc(24px*.26);
+    }
+
+    .FooterEl231Lst .FooterEl2311232 {
+        width: calc(100px*.26);
+
+    }
+
+    .FooterEl2311233 {
+        width: calc(121px*.26);
+        height: calc(54px*.26);
+        border-radius: calc(12px*.26);
+        font-size: calc(18px*.26);
+        line-height: calc(24px*.26);
+    }
+
+    .FooterEl231Lst .FooterEl231123 {
+        gap: calc(4em*.26);
+    }
+
+    .FooterEl231124 {
+        width: calc(231px*.26);
+        height: calc(76px*.26);
+        border-radius: calc(12px*.26);
+    }
+
+    .FooterEl23112421 {
+        width: calc(92px*.26);
+        height: calc(24px*.26);
+        font-size: calc(12px*.26);
+        line-height: calc(24px*.26);
+    }
+
+    .FooterEl23112422 {
+        height: calc(24px*.26);
+        font-size: calc(20px*.26);
+        line-height: calc(24px*.26);
+
+
+    }
+
+    .FooterEl2311242 {
+        transform: translateX(calc(-20px*.26));
+
+    }
+
+    .FooterEl231124Mn {
+        gap: calc(2em*.26);
+    }
+    .FooterMn .FooterEl23 {
+        height: calc(500px*.26);
+    }
+}

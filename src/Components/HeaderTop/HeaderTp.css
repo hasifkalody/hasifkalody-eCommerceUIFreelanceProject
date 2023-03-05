@@ -1,3 +1,8 @@
+/* svg */
+svg{
+    width: 5px;
+    height: 5px;
+}
 .headerTopMain {
     width: 100vw;
     height: 53px;
@@ -187,6 +192,80 @@
 
     .headerTopRight .headerTopLang {
         gap: calc(1em*.71);
+    }
+    .headerTop .headerTopDol{
+        width: 5.5em;
+    }
+
+}
+/* for mobile */
+
+@media(max-width:500px) {
+    .headerTopMain {
+        height: calc(53px*.26);
+    }
+    .headerTopLeft,
+    .headerTopRight {
+        gap:  calc(2em*.26);
+    }
+
+    .headerTopLeft div,
+    .headerTopRight div {
+        height:  calc(25px*.26);
+        gap:  calc(.5em*.26);
+    }
+
+    .headerTop .headerTopPhone span {
+        height:  calc(24px*.26);
+        width:  calc(105px*.26);
+        font-size:  calc(16px*.26);
+        /* font-weight:  calc(600*.91); */
+        line-height: calc(24px*.26);
+        margin-left: calc(8px*.26);
+
+    }
+
+    .headerTop .headerTopMail span {
+        height:  calc(24px*.26);
+        width:  calc(156px*.26);
+        font-size:  calc(16px*.26);
+        /* font-weight: calc(600*.91); */
+    }
+
+    .headerTopVertical {
+        width: calc(2px*.26);
+        height: calc(31px*.26);
+        border-radius: calc(22px*.26);
+    }
+
+    .headerTop .headerTopLoc span {
+        width: calc(79px*.26);
+        height: calc(24px*.26);
+        /* font-weight: calc(600*.91); */
+        font-size: calc(16px*.26);
+        line-height: calc(24px*.26);
+
+    }
+
+    .headerTop .headerTopDol span {
+        width: 70px;
+        height: calc(24px*.26);
+        /* font-weight: calc(600*.91); */
+        font-size: calc(16px*.26);
+        line-height: calc(24px*.26);
+
+    }
+    .headerTop .headerTopLang span {
+        width: calc(21px*.26);
+        height: calc(24px*.26);
+        /* font-weight:calc(600*.91); */
+        font-size: calc(16px*.26);
+        line-height: calc(24px*.26);
+
+    }
+
+    .headerTopRight .headerTopLang {
+        gap: calc(1em*.26);
     }
     .headerTop .headerTopDol{
         width: 5.5em;

@@ -127,3 +127,49 @@
         font-size: calc(34px*.71);
     }
 }
+/* for mobile */
+@media(max-width:500px) {
+    .Crslmain {
+        padding-top: calc(4em*.26);
+        padding-bottom: calc(4em*.26);
+    }
+
+    .CrslDsply {
+        gap: calc(2em*.26);
+    }
+
+
+    .CrslCntents,
+    .CrslCntentsSd1,
+    .CrslCntentsSd2 {
+        width: calc(1296px*.81);
+        height: calc(489px*.81);
+        border-radius: calc(40px*.26);
+    }
+
+    .CrslCntentsSd1,
+    .CrslCntentsSd2 {
+        width: calc(1166px*.81);
+        height: calc(440px*.81);
+    }
+
+    .CrslSelctr {
+        gap: calc(1.5em*.26);
+        margin-top: calc(4em*.26);
+    }
+
+    .CrslSelctrEl {
+        width: calc(9.7px*.26);
+        height: calc(9.7px*.26);
+    }
+
+    .CrslSelctrActive {
+        width: calc(21px*.26);
+        border-radius: calc(5px*.26);
+    }
+    .CrslCntentsTxt span {
+        width: calc(779px*.26);
+        height: calc(232px*.26);
+        font-size: calc(34px*.26);
+    }
+}

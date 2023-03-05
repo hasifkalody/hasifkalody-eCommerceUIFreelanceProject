@@ -2,16 +2,21 @@
     display: flex;
     justify-content: center;
     width: 100vw;
-    height: 95vh;
+    /* height: 95vh; */
     padding-top:6em ;
     padding-bottom: 6em;
 }
 
 .sc3CardsContainer {
-    width: 88%;
     display: flex;
-    flex-wrap: wrap;
-    gap: 2.4%;
+    gap: 1em;
+
+}
+.sc3CardsContainer1{
+    margin-top: 1em;
+}
+.sc31{
+    width: 88%;
 }
 
 .sc3CImg1 {
@@ -32,8 +37,8 @@
 
 .sc3Card {
     border-radius: 30px;
-    width: 48.8%;
-    height: 50%;
+    width: 50%;
+    height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3em;
@@ -138,3 +143,46 @@
         border-right:calc(4px*.71) solid #F8F8F8;
     }
 }
+/* for mobile */
+@media(max-width:500px) {
+    .sc3Main {
+        padding-top:calc(6em*.26);
+        padding-bottom:calc(6em*.26);
+    }
+    
+    /* .sc3CardsContainer {
+        gap: 2.4%;
+    }
+   */
+    .sc3Card {
+        border-radius: calc(30px*.26);
+        padding: calc(3em*.26);
+    }
+    
+    .sc3Card1 {
+        width: calc(512px*.26);
+        height: calc(120px*.26);
+        font-size: calc(44px*.26);
+    }
+    
+    .sc3Card21 {
+        width: calc(393px*.26);
+        height: calc(41px*.26);
+        font-size: calc(27px*.26);
+        line-height: calc(2.2px*.26);
+        line-height: 2.2;
+    }
+    
+    .sc3Card22 {
+        width: calc(48px*.26);
+        height: calc(48px*.26);
+    }
+    
+    .sc3Card221 {
+        width: calc(12.12px*.26);
+        height: calc(12.12px*.26);
+        border-top: calc(4px*.26) solid #F8F8F8;
+        border-right:calc(4px*.26) solid #F8F8F8;
+    }
+}
+

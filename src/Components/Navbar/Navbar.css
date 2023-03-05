@@ -259,3 +259,84 @@
     
     
 }
+/* for mobile */
+@media(max-width:500px){
+    .NavLgElmnt1 {
+        Width:calc(19.45px*.26) ;
+        Height:calc( 42.34px*.26);
+    }
+    .NavbarMain {
+        height: calc(149px*.26);  
+    }
+    .NavLgElmnt2 {
+        width: calc(30px*.26);
+        height: calc(30px*.26);
+        left: calc(5px*.26);
+    }
+    .NavbarLg {
+        width: calc(190px*.91);
+    }
+    .NvDrpDwn {
+        width: calc(246px*.26);
+        height: calc(70px*.26);
+        border-radius: calc(12px*.26);
+        margin-left: calc(3em*.26);
+    }
+    .NvDrpDwn span {
+        width: calc(110px*.26);
+        height: calc(30px*.26);
+        font-weight: calc(500*.26);
+        font-size: calc(20px*.26);
+        line-height: calc(30px*.26);
+    }
+    .NvSearch {
+        width: calc(554px*.26);
+        height: calc(70px*.26);  
+        border-radius: calc(12px*.26);
+        padding: calc(20px*.26);
+        margin-left: calc(1em*.26);
+    }
+    .NavHeart{
+        margin-left: calc(6em*.26);
+    }
+    .CartElmnts {
+        bottom: calc(4px*.26);
+    }
+    .NavCount {
+        width:  calc(21px*.81);
+        height: calc(21px*.81);
+        left: calc(10px*.26);
+        top: calc(-5px*.26);
+        border: calc(2px*.26) solid #FFFF;
+    }
+    
+    .NavCount span {
+        left: calc(4px*.26);
+        width: calc(10px*.26);
+        height: calc(19px*.26);
+        font-weight: calc(800*.26);
+        font-size: calc(16px*.26);
+        line-height: calc(19px*.26);
+    }
+    
+    .NavClsfds {
+        width: calc(164px*.26);
+        height: calc(70px*.26);
+        box-shadow: 0px calc(11px*.26) calc(27px*.26) rgba(0, 198, 215, 0.35);
+        border-radius: calc(12px*.26);
+    }
+    
+    .NavClsfds span {
+        width: calc(60px);
+        height: calc(27px*.26);
+        font-weight: calc(700*.26);
+        font-size: calc(18px*.26);
+        line-height: calc(27px*.26);
+
+    }
+    .NavCart,.NavIcn{
+        margin-left: calc(2em*.26);
+    }
+    
+    
+}
