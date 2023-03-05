@@ -13,9 +13,13 @@ import img5 from '../../Assets/ImagesFotFooterSociel/im5.png'
 import FooterIcn4 from '../Assets/Icons/FooterIcn4'
 import GooglePlayIcn from '../Assets/Icons/GooglePlayIcn'
 function Footer() {
+    const handleClick = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+    
     return (
         <div className='FooterMn'>
-            <div className='FooterEl1'><span>Back to Top</span> <div className='FooterEl11'></div></div>
+            <div onClick={handleClick} className='FooterEl1'><span >Back to Top</span> <div className='FooterEl11'></div></div>
             <div className='FooterEl2'>
                 <div className='FooterEl21'>
                     <div className='FooterEl211'>

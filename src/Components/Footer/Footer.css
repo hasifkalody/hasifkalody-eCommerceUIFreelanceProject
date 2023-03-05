@@ -541,10 +541,11 @@
     }
 
     .FooterEl11 {
-        width: calc(13.16px*.26);
-        height: calc(13.16px*.26);
-        border-top: calc(3px*.26)solid #8D8D8D;
-        border-left: calc(3px*.26)solid #8D8D8D;
+        width: calc(13.16px*.36);
+        height: calc(13.16px*.36);
+        border-top: calc(1px*.26)solid #8D8D8D;
+        border-left: calc(1px*.26)solid #8D8D8D;
+        transform: translateY(2px) rotate(45deg);
     }
 
     .FooterEl2121 {

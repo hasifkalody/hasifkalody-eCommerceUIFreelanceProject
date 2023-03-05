@@ -291,6 +291,7 @@
     .Fs {
         height: calc(371px*.26);
         border-radius: calc(30px*.26);
+        overflow: hidden;
     }
     
     .FsEl1 {
