@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
 }
+
 /* flash salen */
 .Fs {
     width: 88%;
@@ -173,17 +174,18 @@
     line-height: 24px;
     color: #FFFFFF;
 }
+
 @media(max-width:1366px) {
     .Fs {
         height: calc(371px*.71);
         border-radius: calc(30px*.71);
     }
-    
+
     .FsEl1 {
         gap: calc(1.5em*.71);
         /* width: 25%; */
     }
-    
+
     .FsEl11 {
         width: calc(246px*.71);
         height: calc(72px*.71);
@@ -191,7 +193,7 @@
         font-size: calc(48px*.71);
         line-height: calc(72px*.71);
     }
-    
+
     .FsEl12 {
         width: calc(369px*.71);
         height: calc(84px*.71);
@@ -199,7 +201,7 @@
         font-size: calc(16px*.71);
         line-height: calc(28px*.71);
     }
-    
+
     .FsEl13 {
         width: calc(355px*.71);
         height: calc(28px*.71);
@@ -208,7 +210,7 @@
         line-height: calc(28px*.71);
         letter-spacing: -0.04em;
     }
-    
+
     .FsEl2 {
         width: calc(448px*.71);
         height: calc(168px*.71);
@@ -216,16 +218,17 @@
         border-radius: calc(15px*.71);
         margin-left: calc(2.5em*.71);
     }
-    
+
     .FsEl2Inner {
         gap: calc(2.5em*.71);
     }
-    
+
     .FsEl2 img {
         width: calc(95px*.71);
         height: calc(114px*.71);
         border-radius: calc(10px*.71);
     }
+
     .FsEl221 span {
         width: calc(267px*.71);
         height: calc(73px*.71);
@@ -233,15 +236,15 @@
         font-size: calc(16px*.71);
         line-height: calc(24px*.71);
     }
-    
+
     .FsEl222spn1 {
         width: calc(55px*.71);
         height: calc(30px*.71);
         /* font-weight: 600; */
         font-size: calc(20px*.71);
-        line-height: calc(30px*.71);    
+        line-height: calc(30px*.71);
     }
-    
+
     .FsEl222spn2 {
         width: calc(49px*.71);
         height: calc(24px*.71);
@@ -249,34 +252,34 @@
         font-size: calc(16px*.71);
         line-height: calc(24px*.71);
     }
-    
+
     .FsEl223 {
         width: calc(194.6px*.71);
         height: calc(10px*.71);
         border-radius: calc(40px*.71);
     }
-    
+
     .FsImSelector {
         gap: calc(.4em*.71);
     }
-    
+
     .FsImSelectorMain {
         bottom: calc(55px*.71);
         right: calc(75px*.71);
         /* width: 62.5%; */
     }
-    
+
     .FsImSelector1 {
         width: calc(9.71px*.71);
         height: calc(9.71px*.71);
         /* border-radius: 50%; */
     }
-    
+
     .FsImSelector1Active {
         width: calc(21px*.71);
-        border-radius:calc(5px*.71);
+        border-radius: calc(5px*.71);
     }
-    
+
     .FsImSelectorMain span {
         width: calc(88px*.71);
         height: calc(24px*.71);
@@ -288,17 +291,25 @@
 
 /* for mobile */
 @media(max-width:500px) {
+
+    .FsEl221 {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+
+    }
+
     .Fs {
         height: calc(371px*.26);
         border-radius: calc(30px*.26);
         overflow: hidden;
     }
-    
+
     .FsEl1 {
         gap: calc(1.5em*.26);
         /* width: 25%; */
     }
-    
+
     .FsEl11 {
         width: calc(246px*.26);
         height: calc(72px*.26);
@@ -306,7 +317,7 @@
         font-size: calc(48px*.26);
         line-height: calc(72px*.26);
     }
-    
+
     .FsEl12 {
         width: calc(369px*.26);
         height: calc(84px*.26);
@@ -314,7 +325,7 @@
         font-size: calc(16px*.26);
         line-height: calc(28px*.26);
     }
-    
+
     .FsEl13 {
         width: calc(355px*.26);
         height: calc(28px*.26);
@@ -323,7 +334,7 @@
         line-height: calc(28px*.26);
         letter-spacing: -0.04em;
     }
-    
+
     .FsEl2 {
         width: calc(448px*.26);
         height: calc(168px*.26);
@@ -331,17 +342,18 @@
         border-radius: calc(15px*.26);
         margin-left: calc(2.5em*.26);
     }
-    
+
     .FsEl2Inner {
         gap: calc(2.5em*.26);
         align-items: center;
     }
-    
+
     .FsEl2 img {
         width: calc(95px*.26);
         height: calc(114px*.26);
         border-radius: calc(10px*.26);
     }
+
     .FsEl221 span {
         width: calc(267px*.26);
         height: calc(73px*.26);
@@ -349,15 +361,15 @@
         font-size: calc(16px*.26);
         line-height: calc(24px*.26);
     }
-    
+
     .FsEl222spn1 {
         width: calc(55px*.26);
         height: calc(30px*.26);
         /* font-weight: 600; */
         font-size: calc(20px*.26);
-        line-height: calc(30px*.26);    
+        line-height: calc(30px*.26);
     }
-    
+
     .FsEl222spn2 {
         width: calc(49px*.26);
         height: calc(24px*.26);
@@ -365,34 +377,34 @@
         font-size: calc(16px*.26);
         line-height: calc(24px*.26);
     }
-    
+
     .FsEl223 {
         width: calc(194.6px*.26);
         height: calc(10px*.26);
         border-radius: calc(40px*.26);
     }
-    
+
     .FsImSelector {
         gap: calc(.4em*.26);
     }
-    
+
     .FsImSelectorMain {
         bottom: calc(55px*.26);
         right: calc(75px*.26);
         /* width: 62.5%; */
     }
-    
+
     .FsImSelector1 {
         width: calc(9.26px*.26);
         height: calc(9.26px*.26);
         /* border-radius: 50%; */
     }
-    
+
     .FsImSelector1Active {
         width: calc(21px*.26);
-        border-radius:calc(5px*.26);
+        border-radius: calc(5px*.26);
     }
-    
+
     .FsImSelectorMain span {
         width: calc(88px*.26);
         height: calc(24px*.26);
